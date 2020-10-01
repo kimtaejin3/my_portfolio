@@ -25,19 +25,80 @@
         <img src="imgs/logo.png" width="60" />
         <a href="#">Taejin Kim</a>
       </div>
-      <div class="navbar__menu">
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item">Home</li>
-          <li class="navbar__menu__item">About</li>
-          <li class="navbar__menu__item">Skills</li>
-          <li class="navbar__menu__item">My work</li>
-          <li class="navbar__menu__item">Testimonial</li>
-          <li class="navbar__menu__item">Contact</li>
-        </ul>
-      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
     </nav>
+    <section id="home">
+      <img
+        src="imgs/profile.jpg"
+        alt="profile photo"
+        class="home__avatar"
+        width="200"
+        height="250"
+      />
+      <h1 class="home__title">Hello,<br />I'm Taejin Kim</h1>
+      <h2 class="home__description">
+        프론트엔드 부터 시스템, 모바일, 서버의 역량을 갖춘 아이디어 메이커.
+      </h2>
+      <button class="home__contact">Contact Me</button>
+    </section>
 
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officiis
+        nobis numquam neque quae vel, magnam assumenda, odio corporis incidunt
+        quidem deserunt dolorem nostrum eum illum beatae ipsa aliquam nam.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon"><i class="fab fa-js"></i></div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript, TypeScript,
+            <br />React, Vue, Web APIs
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon"><i class="fab fa-node-js"></i></div>
+          <div class="major__title">Back-end</div>
+          <div class="major__description">Node.js, Jsp, Flask</div>
+        </div>
+        <div class="major">
+          <div class="major__icon"><i class="fab fa-android"></i></div>
+          <div class="major__title">Mobile</div>
+          <div class="major__description">Android, ios, react-native</div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img
+            src="imgs/jobs/cnu.png"
+            alt="cnu"
+            class="job__logo"
+            width="150"
+          />
+          <p class="job__name">충남대학교 컴퓨터융합학부 학부생</p>
+          <p class="job__period">2019.3 ~ 2025.2</p>
+        </div>
+        <div class="job">
+          <img
+            src="imgs/jobs/cnu.png"
+            alt="cnu"
+            class="job__logo"
+            width="150"
+          />
+          <p class="job__name">당근마켓 인턴</p>
+          <p class="job__period">2019.3 ~ 2025.2</p>
+        </div>
+      </div>
+    </section>
     <section id="skills"></section>
     <section id="work"></section>
     <section id="testimonials"></section>
