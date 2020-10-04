@@ -12,7 +12,11 @@
   --color-yellow: yellow;
   --color-orange: #feb546;
   --color-black: #000000;
-  --color-brown: #eba963;
+  --color-brown: #cf9553;
+
+  /*  #cf9553
+     #c78f50;
+  */
 
   /* Font size */
   --font-large: 48px;
@@ -47,6 +51,13 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 /* Typography */
@@ -97,10 +108,41 @@ p {
 }
 
 .navbar__menu__item.active {
-  border: 1px solid var(--color-white);
+  border: 1px solid var(--color-light-yellow);
+  color: var(--color-light-yellow);
 }
 
 .navbar__menu__item:hover {
   background-color: var(--color-yellow);
   color: var(--color-dark-white);
+}
+
+#home {
+  background: url(imgs/background.png) center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid var(--color-light-yellow);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-light-yellow);
+}
+
+.home__contact {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-light-yellow);
+  border-radius: var(--size-border-radius);
 }
