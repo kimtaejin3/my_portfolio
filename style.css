@@ -1,4 +1,14 @@
-#navbar,
-#home {
-  background-image: url(imgs/background.png);
+:root {
+  /* Color  */
+
+  /* Font size */
+
+  /* Font weight */
+
+  /* size */
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
 }
